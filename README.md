@@ -5,7 +5,7 @@ pip install -r requirements.txt
 ```
 
 ### create file .env at repository witch you clone
-### Add constant with bot api token. Example:
+### Add constant with bot api token to .env file. Example:
 ```
 TELBOT_API_TOKEN=YOUR_BOT_API_TOKEN
 ```
