@@ -4,7 +4,7 @@ import settings
 
 
 bot = telebot.TeleBot(settings.TELBOT_API_TOKEN)
-WELCOME_TEXT = 'Hello, I will help you to make screenshot of website, Give mi url please'
+WELCOME_TEXT = 'Hello, I will help you to make screenshot of website, Give me url please'
 
 
 @bot.message_handler(commands=['help', 'start'])
